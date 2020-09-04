@@ -1,0 +1,867 @@
+@media (max-width: 992px){
+        /*Navbar*/
+        html,body
+        {
+            width: 100%;
+            margin: 0px;
+            padding: 0px;
+            overflow-x: hidden; 
+        }
+    
+        .navbar-brand .logo {
+            width: 90px;
+            height: 30px;
+            opacity: 1;
+        }
+        .nav-link {
+            margin-left: 10px;
+            font-family: Myriad Pro;
+        }
+        /*Jumbotron */
+        .jumbotron{
+            background-image: url(../Assets/img2/Artboard1mobile.png);
+            background-size: cover;
+            height: 662px;
+        }
+        .jumbotron .display-4 {
+            font-family: Cantiga;
+            font-weight: bold;
+            font-size: 35px;
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+        .jumbotron .lead {
+            font-family: Cantiga;
+            font-weight: 500;
+            font-size: 20px;
+            margin-top: 20px;
+            margin-left: 20px;
+            
+        }
+        .jumbotron .button {
+            font-family: Proxima Nova Extra Condensed ;
+            font-weight: 500;
+            font-size: 20px;
+            margin-top: 10px;
+            margin-left: 25px;
+            height: 40px;
+            border-radius: 15px;
+            width: 190px;
+            background-color: #77DAE0;
+            border: none;
+            text-align: center;
+            box-shadow: 6px 9px 10px #00000029;
+        }
+        .display-5{
+            font-family: Cantiga;
+            font-weight: 200;
+            text-align: center;
+            margin-top: 80px;
+        }
+        .display-5-g{
+            width: 100px;
+            color: black;
+        }
+        .maps2{
+            width: 300px; 
+            height: 100px;
+            margin-left: 55px;
+            margin-top: 20px;
+        }
+        /*Why Nirma*/
+        .harga1{
+            height: 380px;
+            width: 78%;
+            background: #9AF9FF 0% 0% no-repeat padding-box;
+            box-shadow: 6px 9px 18px #00000029;
+            border-radius: 48px;
+            opacity: 1;
+            margin-top: 70px;
+            margin-left: 45px;
+        }
+        .harga1 h1{
+            font-weight: 400;
+            font-family: Cantiga;
+            margin-left: 10px;
+            margin-top: -60px;
+            }
+        .harga1 h6{
+            text-align: left;
+            font-family: Cantiga;
+            font-size: 22px;
+            font-weight: 100;
+            letter-spacing: 0px;
+            color: #000000;
+            opacity: 1;
+            padding-top: 10px;
+            margin-left: 10px;
+        }
+        .harga1 .money {
+            width : 70px;
+            height: 70px;
+            margin-left: 200px;
+            margin-top: 30px;
+        }
+        /*Harga 2*/
+        .harga2{
+            height: 380px;
+            width: 82%;
+            background:  #510273 0% 0% no-repeat padding-box;;
+            box-shadow: 6px 9px 28px #00000029;
+            border-radius: 48px;
+            opacity: 1;
+            margin-top: 100px;
+            margin-left: 40px;
+            }
+        .harga2 .key{
+            width : 70px;
+            height: 70px;
+            margin-top: 25px;
+            margin-left: -15px;
+            }
+        .harga2 h1{
+            text-align: right;
+            color: white;
+            font-weight: 400;
+            font-family: Cantiga;
+            margin-top: -80px;
+            margin-right: 10px;
+            }
+        .harga2 h6{
+            text-align: right;
+            color: white;
+            font-family: Cantiga;
+            font-size: 20px;
+            letter-spacing: 0px;
+            opacity: 1;
+            padding-top: 20px;
+            margin-right: 10px;
+            }
+
+        /*Tracking Barang */
+        .Tracking .umbrella {
+            width: 150px ;
+            height: 150px ;
+            margin-top: 130px;
+            margin-left: 10px;
+        }
+        .Tracking .kaca {
+            width: 100px;
+            height: 100px;
+            margin-top: 200px;
+            margin-left: -60px;
+        }
+        .Tracking .button {
+        width: 180px;
+        height: 45px;
+        background-color: #510273;
+        color: #ffffff;
+        border-radius: 14px;
+        margin-left: 30px;
+        margin-top: 10px;
+        font-family: Cantiga;
+        font-size: 23px;
+        box-shadow: 6px 9px 28px #00000029;
+    
+        }
+        .Tracking .form-control{
+        width: 300px;
+        height: 45px;
+        margin-left: 30px;
+        border-color:#510273 ;
+        border-radius: 14px;
+        margin-top: 40px;
+        font-family: Cantiga;
+        font-size: 20px;
+        }
+        .Tracking h1{
+        font-weight: 900;
+        font-family: Cantiga;
+        margin-top: 20px;
+        margin-left: 30px;
+        }
+        .Tracking h6{
+        font-weight: 300;
+        font-family: Cantiga;
+        font-size: 22px;
+        margin-top: 20px;
+        margin-left: 30px;
+        }
+        /*Review */
+        .visual{
+        width: 100%;
+        height: auto;
+        }
+        .Review {
+        margin-top: 100px;
+        background-color: #DDEFFB;
+        height: 500px;
+        }
+        .Review h1{
+        font-family: roboto;
+        color: #100216;
+        font-size: medium;
+        font-weight: 100;
+        text-align: right;
+        margin-top: 5px;
+        margin-left: 180px;
+        border-right-style: solid;
+        border-right-color: #0c0111;
+        border-right-width: 3px;
+        }
+        /*Footer */
+        .footer {
+        background-color: #3B3737;
+        height: 600px;
+        }
+        .footer .nirmaw {
+        margin-top: 20px;
+        width: 120px;
+        height: 40px;
+        }
+        .footer .nirma11{
+        color: #ffffff;
+        font-family: Roboto;
+        font-size: 15px;
+        margin-top: 80px;
+        margin-left: -105px;
+        }
+        .footer .link{
+        margin-top:40px;
+        margin-left: 30px;
+        }
+        .footer .contact {
+        margin-top:40px;
+        }
+        .footer .number {
+        margin-top:5px;
+        margin-left: 60px;
+        margin-top: -20px;
+        }
+        .footer h6{
+        color: #ffffff;
+        font-family: Roboto;
+        font-size: 15px;
+        margin-top: 20px;
+        margin-left: 30px;
+        }
+        .footer .chat {
+        width: 25px;
+        height: 25px;
+        margin-left: 25px;
+        margin-top: 10px;
+        }
+        .footer .twitter {
+        width: 25px;
+        height: 25px;
+        margin-left: 25px;
+        }
+        .footer .line {
+        width: 25px;
+        height: 25px;
+        margin-left: 25px;
+        }
+        .footer .ig {
+        width: 25px;
+        height: 25px;
+        margin-left: 25px;
+        }
+        .footer .twitt {
+        margin-top:5px;
+        margin-left: 60px;
+        margin-top: -20px;
+        }
+        .footer .lin {
+        margin-top:5px;
+        margin-left: 60px;
+        margin-top: -20px;
+        }
+        .footer .inst {
+        margin-top:5px;
+        margin-left: 60px;
+        margin-top: -20px;
+        }
+        .footer .garis {
+        margin-top: 30px;
+        width: 400px;
+        background-color: #ffffff;
+        border-bottom-style: solid;
+        }
+        .footer .cr {
+        width: 18px ;
+        height: 18px;
+        margin-top:-10px ;
+        margin-left: 30px;
+        }
+        .footer .copyright {
+        margin-left: 10px;
+        margin-top:-10px ;
+        color: #ffffff;
+        font-family: roboto;
+        font-size: medium;
+        }
+/*==========================================================*/
+
+/*BAGIAN KONTAK NIRMA */
+
+/*==========================================================*/
+
+.kontak {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.082),rgba(59, 50, 50, 0.068)),url(../Assets/img2/gedung.jpg);
+    background-position: center;
+    font-family: Cantiga;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    
+}
+.kontak .formulir {
+    margin-left: 5px;
+    width: auto;
+    height: 550px;
+    background-color: #ffffff;
+    margin-top: 90px;
+    box-shadow: 6px 9px 18px #00000029; ;
+    border-radius: 20px ;
+    margin-bottom: 70px;
+
+}
+.formulir .form-control {
+    margin-left: 30px;
+    border-radius: 10px;
+    font-size: 20px;
+    width: 270px;
+}
+.formulir .text {
+    height: 140px;
+    font-size: 20px;
+}
+.formulir .namanya1 {
+    margin-left: 20px;
+    margin-top: 40px;
+    font-size: 20px;
+}
+.formulir .namanya {
+    margin-left: 20px;
+    margin-top: 6px;
+    font-size: 20px;
+    height: 40px;
+}
+.formulir .namanyam {
+    margin-left: 20px;
+    margin-top: 6px;
+    font-size: 20px;
+    height: 40px;
+}
+.formulir .button {
+    width: 230px;
+    height: 40px ;
+    margin-left: 40px;
+    margin-top: 20px;
+    font-family: Cantiga;
+    background: #657779 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 12px;
+    opacity: 1;
+    border: none;
+    
+}
+.hubungi h1 {
+    margin-top: 100px;
+    margin-left: 25px;
+    font-weight: 550;
+    font-size: 70px;
+    color: #ffffff;
+
+}
+.hubungi h3{
+    color: #ffffff;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 25px;
+}
+.hubungi .wat {
+    width: 200px;
+    height: 40px;
+    background: #75B73B 0% 0% no-repeat padding-box;
+    box-shadow: 9px 3px 6px #00000029;
+    border-radius: 23px;
+    opacity: 1;
+    border: none;
+    margin-left: 65px;
+    margin-top: 40px;
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: 800;
+}
+.hubungi .waphoto {
+    width: 30px;
+    height: 30px;
+    margin-left: -10px;
+}
+.hubungi .igeh {
+    width: 200px;
+    height: 40px;
+    background: #6C27B3 0% 0% no-repeat padding-box;
+    box-shadow: 9px 3px 6px #00000029;
+    border-radius: 23px;
+    opacity: 1;
+    border: none;
+    margin-left: -200px;
+    margin-top: 130px;
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: 850px;
+    color: #ffffff;
+}
+.hubungi .igphoto {
+    width: 30px;
+    height: 30px;
+    margin-left: -10px;
+    border: none;
+}
+.hubungi .twt {
+    width: 200px;
+    height: 40px;
+    background: #65A2D9 0% 0% no-repeat padding-box;
+    box-shadow: 9px 3px 6px #00000029;
+    border-radius: 23px;
+    opacity: 1;
+    border: none;
+    margin-left: 65px;
+    margin-top: 40px;
+    padding-left: 20px;
+    font-size: 20px;
+    color: #ffffff;
+}
+.hubungi .twphoto {
+    width: 30px;
+    height: 30px;
+    margin-left: -30px;
+    border: none;
+}
+/*==========================================================*/
+
+/*BAGIAN LAYANAN NIRMA */
+
+/*==========================================================*/
+.layanan h3{
+    font-family: Cantiga;
+    text-align: center;
+    margin-top: 70px;
+    font-size: 40px;
+    font-weight: 100;
+
+}
+.layanan .layanNAV {
+    margin-top: 40px;
+    font-family: Cantiga;
+    font-size: 20px;
+    
+}
+.layanan .jasalayan {
+    margin-left: 60px;
+    /*width: 170px;*/
+}
+
+
+/*jasa layanan 01*/
+
+.layanan .jasalayan01{
+    background-color:#DDEFFB ;
+    background-size: cover;
+    height: 750px;
+}
+.layanan .kirimbarang {
+    margin-left: -7px;
+    margin-top: 70px;
+    height: auto;
+    width: 370px;
+}
+.jasalayan01 h3{
+    font-family: Cantiga;
+    color : #433D3D;
+    margin-left: -270px;
+    margin-top: 30px;
+}
+.jasalayan01 h1{
+    font-family: Cantiga;
+    font-weight: 900;
+    color : #433D3D;
+    margin-left: 10px;
+    font-size: 35px;
+}
+.jasalayan01 h2{
+    font-family: Cantiga;
+    font-weight: 700;
+    font-size: 25px;
+    margin-left: 10px;
+}
+.jasalayan01 h5 {
+    font-family: Cantiga;
+    margin-left: 10px;
+}
+.jasalayan01 .pin {
+    width: 50px;
+    height: auto;
+    margin-top: 10px;
+    margin-left: -1px;
+    /*margin-left: -170px;*/
+}
+/*.jasalayan01 .tempat{
+    margin-left: 25px;
+    font-size: 15px;
+    margin-top: -50px;
+
+}
+
+
+/* jasa layanan 02 */
+
+
+.layanan .jasalayan02{
+    background-color:#F4F4F4 ;
+    background-size: cover;
+    margin-bottom: 120px;
+    margin-top: -20px;
+    height: 730px;
+}
+.layanan .packingbarang {
+    margin-top: 40px;
+    height: auto;
+    width: 300px;
+    margin-left: -6px;
+}
+.jasalayan02 h3{
+    font-family: Cantiga;
+    margin-left: -280px;
+    color : #433D3D;
+    margin-top: 25px;
+    
+}
+.jasalayan02 h1{
+    font-family: Cantiga;
+    font-weight: 900;
+    color : #433D3D;
+    margin-left: -6px;
+    font-size: 33px;
+    margin-top: -5px;
+}
+.jasalayan02 h2{
+    font-family: Cantiga;
+    font-weight: 700;
+    font-size: 25px;
+    margin-left: -6px;
+}
+.jasalayan02 h5 {
+    font-family: Cantiga;
+    margin-left: -6px;
+    margin-top: 20px;
+}
+.jasalayan02 .pin {
+    width: 50px;
+    height: auto;
+    margin-top: 10px;
+    margin-left: -6px;
+}
+.jasalayan02 .tempat{
+    margin-left: 75px;
+    font-size: 15px;
+    margin-top: -40px;
+
+}
+
+/* jasa layanan 03 */
+.layanan .jasalayan03{
+    background-color:#DDEFFB ;
+    background-size: cover;
+    height: 1050px;
+}
+.layanan .bersihkost {
+    margin-left: -7px;
+    margin-top: 30px;
+    height: auto;
+    width: 370px;
+}
+.jasalayan03 h3{
+    font-family: Cantiga;
+    color : #433D3D;
+    margin-left: -270px;
+    margin-top: 30px;
+}
+.jasalayan03 h1{
+    font-family: Cantiga;
+    font-weight: 900;
+    color : #433D3D;
+    margin-left: 10px;
+    font-size: 35px;
+}
+.jasalayan03 h2{
+    font-family: Cantiga;
+    font-weight: 700;
+    font-size: 25px;
+    margin-left: 10px;
+}
+.jasalayan03 h5 {
+    font-family: Cantiga;
+    margin-left: 10px;
+}
+.jasalayan03 .pin {
+    width: 50px;
+    height: auto;
+    margin-top: 10px;
+    margin-left: -1px;
+}
+
+/* jasa layanan 02 */
+
+
+.layanan .jasalayan04{
+    background-color:#F4F4F4 ;
+    background-size: cover;
+    margin-bottom: 60px;
+    margin-top: -20px;
+    height: 880px;
+}
+.layanan .motor {
+    margin-top: 40px;
+    height: auto;
+    width: 300px;
+    margin-left: -6px;
+}
+.jasalayan04 h3{
+    font-family: Cantiga;
+    margin-left: -280px;
+    color : #433D3D;
+    margin-top: 25px;
+    
+}
+.jasalayan04 h1{
+    font-family: Cantiga;
+    font-weight: 900;
+    color : #433D3D;
+    margin-left: -6px;
+    font-size: 33px;
+    margin-top: -5px;
+}
+.jasalayan04 h2{
+    font-family: Cantiga;
+    font-weight: 700;
+    font-size: 25px;
+    margin-left: -6px;
+}
+.jasalayan04 h5 {
+    font-family: Cantiga;
+    margin-left: -6px;
+    margin-top: 20px;
+}
+.jasalayan04 .pin {
+    width: 50px;
+    height: auto;
+    margin-top: 10px;
+    margin-left: -6px;
+}
+.jasalayan04 .tempat{
+    margin-left: 75px;
+    font-size: 15px;
+    margin-top: -40px;
+
+}
+/**************************************************/
+/*jasa titip 01*/
+.layanan .jasatitip01{
+    background-color:#DDEFFB ;
+    background-size: cover;
+    height: 800px;
+    margin-bottom: 50px;
+}
+.layanan .kontainer {
+    margin-top: 30px;
+    margin-left: 3px;
+    height: auto;
+    width: 350px;
+}
+.jasatitip01 h3{
+    font-family: Cantiga;
+    margin-left: -280px;
+    color : #433D3D;
+    margin-top: 15px;
+}
+.jasatitip01 h1{
+    font-family: Cantiga;
+    font-weight: 900;
+    color : #433D3D;
+}
+.jasatitip01 h2{
+    font-family: Cantiga;
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 40px;
+}
+.jasatitip01 h5 {
+    font-family: Cantiga;
+}
+.jasatitip01 .pin {
+    width: 50px;
+    height: auto;
+    margin-top: 50px;
+}
+.jasatitip01 .tempat{
+    margin-left: 55px;
+    font-size: 15px;
+    margin-top: -40px;
+
+}
+/** Jasa Titip 02 *
+
+Create two equal columns that floats next to each other */
+.layanan .jasatitip02{
+    background-color:#F4F4F4 ;
+    background-size: cover;
+    margin-bottom: 120px;
+    margin-top: 5px;
+    height: 870px;
+}
+.layanan .kartonbox {
+    margin-top: 40px;
+    height: auto;
+    width: 350px;
+    margin-left: 5px;
+}
+.jasatitip02 h3{
+    font-family: Cantiga;
+    margin-left: -260px;
+    color : #433D3D;
+    margin-top: 20px;
+}
+.jasatitip02 h1{
+    font-family: Cantiga;
+    font-weight: 900;
+    color : #433D3D;
+    margin-left: 5px;
+}
+.jasatitip02 h2{
+    font-family: Cantiga;
+    font-weight: 700;
+    font-size: 25px;
+    margin-left: 5px;
+    margin-top: 40px;
+}
+.jasatitip02 h5 {
+    font-family: Cantiga;
+    margin-left: 5px;
+}
+.jasatitip02 .pin {
+    width: 50px;
+    height: auto;
+    margin-top: 50px;
+    margin-left: 5px;
+}
+.jasatitip02 .tempat{
+    margin-left: 65px;
+    font-size: 15px;
+    margin-top: -40px;
+
+}
+
+/* Jasa titip 03*/
+
+.layanan .jasatitip03{
+    background-color:#DDEFFB ;
+    background-size: cover;
+    margin-bottom: 120px;
+    margin-top: -80px;
+    height: 800px;
+}
+.layanan .softbox {
+    margin-left: -5px;
+    margin-top: 20px;
+    height: auto;
+    width: 350px;
+}
+.jasatitip03 h3{
+    font-family: Cantiga;
+    margin-left: -280px;
+    color : #433D3D;
+    margin-top:30px;
+}
+.jasatitip03 h1{
+    font-family: Cantiga;
+    font-weight: 900;
+    color : #433D3D;
+}
+.jasatitip03 h2{
+    font-family: Cantiga;
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 20px;
+}
+.jasatitip03 h5 {
+    font-family: Cantiga;
+    margin-top: 10px;
+}
+.jasatitip03 .pin {
+    width: 50px;
+    height: auto;
+    margin-top: 10px;
+}
+.jasatitip03 .tempat{
+    margin-left: 55px;
+    font-size: 15px;
+    margin-top: -40px;
+
+}
+
+/*Jasa titip 4*/
+/* Create two equal columns that floats next to each other */
+.layanan .jasatitip04{
+    background-color:#F4F4F4 ;
+    background-size: cover;
+    margin-bottom: 60px;
+    margin-top: -80px;
+}
+.layanan .motor {
+    margin-top: 20px;
+    height: auto;
+    width: 320px;
+    margin-left: 5px;
+}
+.jasatitip04 h3{
+    font-family: Cantiga;
+    margin-left: -260px;
+    margin-top: 20px;
+    color : #433D3D;
+}
+.jasatitip04 h1{
+    font-family: Cantiga;
+    font-weight: 900;
+    color : #433D3D;
+    margin-left: 5px;
+}
+.jasatitip04 h2{
+    font-family: Cantiga;
+    font-weight: 700;
+    font-size: 25px;
+    margin-left: 5px;
+    margin-top: 25px;
+}
+.jasatitip04 h5 {
+    font-family: Cantiga;
+    margin-left: 5px;
+}
+.jasatitip04 .pin {
+    width: 50px;
+    height: auto;
+    margin-top: 50px;
+    margin-left: 5px;
+}
+.jasatitip04 .tempat{
+    margin-left: 75px;
+    font-size: 15px;
+    margin-top: -40px;
+
+}
+
+
+
+}
